@@ -1,34 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "recharsex",
   "version": "${version}",
 
-  "name": "",
-  "description": "",
+  "name": "Roughly Enough Characters Extra",
+  "description": "给 Roughly Enough Characters 加了点自用的",
   "authors": [
     "Huaji_MUR233"
   ],
   "contact": {
     "homepage": "https://github.com/HuajiMUR233/",
-    "sources": "https://github.com/HuajiMUR233/"
+    "sources": "https://github.com/HuajiMUR233/RoughlyEnoughCharactersEx"
   },
 
   "license": "WTFPL-3.0",
   "icon": "assets/modid/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "me.jvav."
-    ]
-  },
+  "environment": "client",
   "mixins": [
-    "modid.mixins.json"
+    "recharsex.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.12.12",
     "minecraft": "1.18.x",
-    "java": ">=17"
+    "java": ">=17",
+    "malilib": ">=0.11.4",
+    "roughly-enough-characters": ">=0.0.4",
+    "chesttracker": "*"
   }
 }

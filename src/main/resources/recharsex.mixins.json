@@ -1,14 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.jvav..mixins",
+  "package": "me.jvav.recharsex.mixins",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
   "client": [
+    "MixinWidgetListConfigOptions",
+    "MixinWItemListPanel"
   ],
-  "server": [
-  ]
   "injectors": {
     "defaultRequire": 1
   }
