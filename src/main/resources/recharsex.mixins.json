@@ -2,10 +2,15 @@
   "required": true,
   "minVersion": "0.8",
   "package": "me.jvav.recharsex.mixins",
+  "plugin": "me.jvav.recharsex.RecExMixinConfigPlugin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "MixinWidgetListConfigOptions",
-    "MixinWItemListPanel"
+    "chesttracker.MixinWItemListPanel",
+    "lazylanguageloader.MixinCodeLanguageMatcher",
+    "lazylanguageloader.MixinNameLanguageMatcher",
+    "lazylanguageloader.MixinRegionLanguageMatcher",
+    "malilib.MixinWidgetListConfigOptions",
+    "bbor.MixinAbstractControl"
   ],
   "injectors": {
     "defaultRequire": 1
