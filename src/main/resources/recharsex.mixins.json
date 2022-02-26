@@ -10,7 +10,8 @@
     "lazylanguageloader.MixinNameLanguageMatcher",
     "lazylanguageloader.MixinRegionLanguageMatcher",
     "malilib.MixinWidgetListConfigOptions",
-    "bbor.MixinAbstractControl"
+    "bbor.MixinAbstractControl",
+    "xaero_minimap.MixinGuiSettings"
   ],
   "injectors": {
     "defaultRequire": 1

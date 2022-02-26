@@ -17,19 +17,4 @@ public class MixinWidgetListConfigOptions {
     private boolean proxyStringContains(String instance, CharSequence s) {
         return MatchHelper.contains(instance, s);
     }
-
-//    protected boolean matchesFilter(String entryString, String filterText) {
-//        filterText = filterText.toLowerCase();
-//        if (filterText.isEmpty()) {
-//            return true;
-//        }
-//
-//        for (String filter : filterText.split("\\|")) {
-//            if (MatchHelper.contains(entryString, filter)) {
-//                return true;
-//            }
-//        }
-//
-//        return false;
-//    }
 }

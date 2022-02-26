@@ -1,5 +1,7 @@
 package me.jvav.recharsex.mixins.bbor;
 
+import static me.jvav.recharsex.Constants.BBOR;
+
 import com.oott123.rechars.helpers.MatchHelper;
 import me.fallenbreath.conditionalmixin.api.annotation.Condition;
 import me.fallenbreath.conditionalmixin.api.annotation.Restriction;
@@ -11,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 
-@Restriction(require = @Condition("bbor"))
+@Restriction(require = @Condition(BBOR))
 @Mixin(targets = "com.irtimaled.bbor.client.gui.AbstractControl", remap = false)
 public abstract class MixinAbstractControl extends AbstractWidget {
     public MixinAbstractControl(int i, int j, int k, int l, Component component) {
