@@ -23,8 +23,10 @@
 
   "depends": {
     "fabricloader": ">=0.12.12",
-    "minecraft": "1.18.x",
     "java": ">=17",
-    "roughly-enough-characters": ">=0.0.4"
+    "roughly-enough-characters": "*"
+  },
+  "suggests": {
+    "xaero_map_addition": "*"
   }
 }
